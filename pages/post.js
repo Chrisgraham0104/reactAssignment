@@ -245,7 +245,7 @@ const PostPage = ({ post }) =>
             <p>Actors: {post.Actors}</p>
 <p>Writers: {post.Writer}</p>
             <p className="lead">
-              <Link href="\">
+              <Link href="/">
               <a className="btn btn-primary btn-lg">Go Back </a>
               </Link>
             </p>
