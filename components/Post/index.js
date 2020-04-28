@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
         | Release Date: {p.Released}</p>
         
        
-        <Link href={{ pathname: '/post', query: { slug: p.imdbID } }}>
+        <Link href={{ pathname: 'http://chris-assignment-app.herokuapp.com//post', query: { slug: p.imdbID } }}>
                 <a  className="btn btn-primary">Go to Detail Page</a>
                </Link>
             </div>
